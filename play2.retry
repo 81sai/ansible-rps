@@ -1,0 +1,6 @@
+ansible_password=root
+ansible_port=2001
+ansible_user=root
+node1
+node2
+node3

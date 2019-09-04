@@ -1,0 +1,11 @@
+[linux]
+node1 ansible_port=2001
+node2 ansible_port=2002
+node3 ansible_port=2003
+#node2 ansible_user=root ansible_host=localhost ansible_port=2002 ansible_private_key_file=/home/test/.ssh/id_rsa
+#node3 ansible_user=root ansible_host=localhost ansible_port=2003 ansible_private_key_file=/home/test/.ssh/id_rsa
+[linux:vars]
+ansible_user=root
+ansible_host=localhost
+ansible_password=root
+ansible_private_key_file=/home/test/.ssh/id_rsa

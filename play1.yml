@@ -1,0 +1,10 @@
+- name: 1st example
+  hosts: all
+  tasks:
+    - name: pinging
+      ping:
+
+    - name: list the files
+      shell: ls -ltra /root
+      register: output
+    - debug: var=output
